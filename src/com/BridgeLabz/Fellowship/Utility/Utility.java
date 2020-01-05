@@ -221,5 +221,10 @@ public class Utility {
 		System.out.println(winner);
 		System.out.println("Percentage of Win = "+(double)((win/trials)*100));
 	}
-
+	
+	/*------------------------------Add Check---------------------------------*/
+	public static void add(int a, int b) {
+		int ans = a + b;
+		System.out.println("Addition = "+ans);
+	}
 }
