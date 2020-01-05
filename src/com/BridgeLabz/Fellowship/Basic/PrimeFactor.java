@@ -7,6 +7,7 @@ public class PrimeFactor {
 		//Input
 		System.out.println("Enter the Number");
 		int num = Utility.integerInput();
+		//Method Call
 		Utility.primeFactorCalculation(num);
 	}
 }

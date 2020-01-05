@@ -36,6 +36,7 @@ public class Utility {
 			else
 				tail++;
 		}
+		//Output
 		System.out.println("Percentage of Heads " + (head / flips) * 100);
 		System.out.println("Percentage of Heads " + (tail / flips) * 100);
 	}

@@ -13,7 +13,7 @@ public class Quadratic {
 
 		System.out.println("Enter Value for C");
 		double c = Utility.doubleInput(); // c
-
+		//Method Call
 		Utility.quadraticEquation(a, b, c);
 	}
 }

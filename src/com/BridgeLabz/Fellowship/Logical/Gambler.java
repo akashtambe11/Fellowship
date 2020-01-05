@@ -13,7 +13,7 @@ public static void main(String[] args) {
 	
 	System.out.println("Enter Value for Trials");
 	int trials = Utility.integerInput();
-	
+	//Method Call
 	Utility.gamblerSimulator(stakes, goal, trials);
 }
 }
