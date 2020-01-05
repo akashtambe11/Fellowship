@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	int a = Utility.integerInput();
 	System.out.println("Enter second number");
 	int b = Utility.integerInput();
-	
+	//Method Call
 	Utility.add(a, b);
 }
 }
