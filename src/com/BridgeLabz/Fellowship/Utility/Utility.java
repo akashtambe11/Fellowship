@@ -215,6 +215,7 @@ public class Utility {
 			if (cash == goals)
 				win++;
 		}
+		//output
 		System.out.println("Number of bets"+bet);
 		System.out.println("You win "+win+" out of "+trials);
 		winner=(double)((win/trials)*100);
@@ -225,6 +226,7 @@ public class Utility {
 	/*------------------------------Add Check---------------------------------*/
 	public static void add(int a, int b) {
 		int ans = a + b;
-		System.out.println("Addition = "+ans);
+		System.out.println("Addition =");
+		System.out.println(ans);
 	}
 }
