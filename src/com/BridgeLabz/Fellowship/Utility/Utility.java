@@ -65,7 +65,7 @@ public class Utility {
 		} else
 
 		// To Check Enter year is leap year or not?
-		if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 00) {
+		if (year % 4 == 0 && year % 100 != 0 || year % 400 == 00) {
 			System.out.println(year + " is leap Year");
 		} else {
 			System.out.println(year + " is NOT leap Year");
